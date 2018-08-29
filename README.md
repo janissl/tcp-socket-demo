@@ -11,33 +11,33 @@ The application has been developed in course of my master studies at [Riga Techn
 
 ## Usage
 ### 1. First, start a server.
-__UNIX/Linux__ _(single-threaded)_:
+&nbsp;&nbsp;&nbsp;&nbsp;__UNIX/Linux__ _(single-threaded)_:
 ```
 $>./server_sgl_conn.py
 ```  
-__OR__ _(multi-threaded)_:
+&nbsp;&nbsp;&nbsp;&nbsp;__OR__ _(multi-threaded)_:
 ```
 $>./server_mtp_conn.py
 ```
-__Windows__ _(from PowerShell console, single-threaded)_:
+&nbsp;&nbsp;&nbsp;&nbsp;__Windows__ _(from PowerShell console, single-threaded)_:
 ```
 $>python .\server_sgl_conn.py
 ```
-__OR__ _(multi-threaded)_:
+&nbsp;&nbsp;&nbsp;&nbsp;__OR__ _(multi-threaded)_:
 ```
 $>python .\server_mtp_conn.py
 ```
 ### 2. Then, run the client.
-__UNIX/Linux__:
+&nbsp;&nbsp;&nbsp;&nbsp;__UNIX/Linux__:
 ```
 $>./client.py [server_IP_address]
 ```
-__Windows__ _(from PowerShell console)_:
+&nbsp;&nbsp;&nbsp;&nbsp;__Windows__ _(from PowerShell console)_:
 ```
 $>python .\client.py [server_IP_address]
 ```
 
-If the client and the server are running on the same machine, the server IP address may be omitted.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;_If the client and the server are running on the same machine, the server IP address may be omitted._
 <hr>
 
 Used references:
