@@ -10,7 +10,7 @@ For demonstration purposes, the client sends 10000 requests to the server.
 The application has been developed in course of my master studies at [Riga Technical University] (Network Operating Systems (DIP 496), Prof. Dr. E. Latiseva).
 
 ## Usage
-### 1. First, start a server.
+### 1. Start a server.
 &nbsp;&nbsp;&nbsp;&nbsp;__UNIX/Linux__ _(single-threaded)_:
 ```
 $>./server_sgl_conn.py
@@ -27,7 +27,7 @@ $>python .\server_sgl_conn.py
 ```
 $>python .\server_mtp_conn.py
 ```
-### 2. Then, run the client.
+### 2. Run the client (on the same or a remote machine).
 &nbsp;&nbsp;&nbsp;&nbsp;__UNIX/Linux__:
 ```
 $>./client.py [server_IP_address]
